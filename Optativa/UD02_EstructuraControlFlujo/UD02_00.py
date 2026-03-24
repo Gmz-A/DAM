@@ -37,3 +37,5 @@ num1 = int(input("Ingrese un numero:\n"))
 num2 = int(input("Infrese otro numero: \n"))
 
 print(f"División decimal: {num1/num2}")
+print(f"División entera: {num1//num2}")
+print(f"Resto: {num1%num2}")
