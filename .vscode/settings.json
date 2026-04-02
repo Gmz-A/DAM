@@ -1,3 +1,4 @@
 {
-  "livePreview.defaultPreviewPath": "/Master/Clase2/index.html"
+  "livePreview.defaultPreviewPath": "/Master/Clase2/index.html",
+  "java.debug.settings.onBuildFailureProceed": true
 }
