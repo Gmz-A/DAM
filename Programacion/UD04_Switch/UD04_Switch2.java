@@ -32,7 +32,10 @@ public class UD04_Switch2 {
 
         return switch (nota){
             case 10, 9 -> "Sobresaliente";
-            case 8,7 -> "Notable";
+            case 8,7 -> {
+                System.out.println("Nota buena");
+                yield "Notable";
+            }
             case 6,5 -> "Aprobado";
             default -> "Suspenso";
         };

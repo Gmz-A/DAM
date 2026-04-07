@@ -1,4 +1,4 @@
-public class Pruebas {
+public class UD04_Char {
     public static void main(String[] args) {
         // 1. Declaración de un literal char usando comillas simples [5, 6]
         char opcionMenu = 'B'; 
