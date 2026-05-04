@@ -1,8 +1,70 @@
 import math
 
-numero = int(input("Ingrese un numero: \n"))
-#Ejercicio 5
+print("Ejercicio 1\n")
 
+numero = int(input("Ingrese un numero: \n"))
+if numero > 0:
+    print("Es un numero positivo")
+elif numero == 0:
+    print("Es un 0")
+else:
+    print("El numero es negativo")
+
+print("Ejercicio 2\n")
+
+edad = int(input("Dime tu edad\n"))
+
+if edad >= 65:
+    print("Vete a dormir, viejo")
+elif edad >= 18:
+    print("Puedes pasar")
+else: 
+    print("No puedes pasar")
+
+print("Ejercicio 3\n")
+
+pacman = int(input("Ingresa un numero de pacman: \n"))
+fantasma = int(input("Ingresa otro numero de fantasma: \n"))
+
+if pacman==fantasma:
+    formato = input("Ingresa las opciones | Normal o Caramelo |\n")
+    if formato == "Normal":
+        print("Pacman ha sido atrapado")
+    elif formato == "Caramelo":
+        print("Pacman ha comido fantasma")
+else:
+    print("Pacman ha escapado")
+
+#tiempo clase 1:00:28
+print("Ejercicio 4\n")
+numeroEj4 = int(input("Ingresa un numero: \n"))
+if numeroEj4 % 3 == 0 and numeroEj4 % 5 == 0:
+    print("Es múltiplo de 3 y 5")
+elif numeroEj4 % 3 == 0:
+    print("El resultado entre 3 es" + numeroEj4 % 3)
+elif numeroEj4 % 5 == 0:
+    print("El resultado entre 5 es" + numeroEj4 % 5)
+else:
+    print("No es multiplo de 3 ni de 5")
+
+
+
+print("Ejercicio 5\n")
+
+rol = input("Cual es tu rol -> ")
+academia = input("Donde estudias -> ")
+
+if academia == "Prometeo":
+    if rol == "Alumno":
+        print("Dicrood no oficial")
+    elif rol == "Profesor":
+        print("Discord Oficial")
+else: 
+    print("No tienes acceso al servidor")
+
+
+#EJERCICIOS HECHOS EN CLASE
+print("EJERCICIOS EN CLASE")
 
 #Ejercicio 6
 print(f"""
