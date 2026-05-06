@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "DamRepo_40a2b8c3"
+        },
+        {
+            "type": "java",
             "name": "SES10_EjerciciosString",
             "request": "launch",
             "mainClass": "SES10_EjerciciosString",
